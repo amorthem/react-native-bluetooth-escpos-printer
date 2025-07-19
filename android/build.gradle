@@ -20,12 +20,12 @@ buildscript {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion "28.0.3"
+    compileSdkVersion 35 // likt targetSdkVersion
+    buildToolsVersion "35.0.0" // Android SDK Build-Tools v 35.0.0
 
     defaultConfig {
-        minSdkVersion 16
-        targetSdkVersion 30
+        minSdkVersion 26 // min android 8.0
+        targetSdkVersion 35 // android 15
         versionCode 1
         versionName "1.0"
     }
